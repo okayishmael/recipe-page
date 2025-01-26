@@ -46,7 +46,7 @@ main{
   padding-bottom: 0;
  }
 hr.divider {
-  border-top: thin solid var(--paragraph-text-color);
+  border: .0625rem solid var(--paragraph-text-color);
   margin: 0 2rem;
  
 }
