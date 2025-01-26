@@ -152,14 +152,14 @@ footer{
   .container{
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 2rem;
   }
 
-  .banner{
+  /* .banner{
     padding: 2rem 2rem 0 2rem;
     
-  }
+  } */
 
   .recipe-image{
     border-radius: 1rem;
