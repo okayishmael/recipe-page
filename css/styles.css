@@ -46,12 +46,12 @@ main{
   padding-bottom: 0;
  }
 .divider {
-  border: .01125rem solid var(--paragraph-text-color);
+  border-top: thin solid var(--paragraph-text-color);
   margin: 0 2rem;
  
 }
 .recipe-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--main-header-color);
   margin: 1rem 0;
   font-family: 'Young Serif', serif;
@@ -135,7 +135,7 @@ main{
 }
 
 .nutrition-row{
-  border-bottom: 1px solid var(--paragraph-text-color);
+  border-bottom: thin solid var(--paragraph-text-color);
   
 
 }
