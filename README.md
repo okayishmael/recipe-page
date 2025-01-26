@@ -62,18 +62,18 @@ Build a responsive recipe page and get it looking as close to the design as poss
 - Next add media query for larger screen sizes.
 -  Use 508 Accessibilty Extention
 
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - Mobile-first workflow
 
 
 ### What I learned
 
 
-   - Incremental growth(3 days, 3 builds completed).
+   - Incremental growth(4 builds completed).
    - Learning agile(Being able to build a new component almost everyday towards completing my beginner level).
    - Next time I'd like to decrease development time by 30mins.
 
@@ -88,6 +88,8 @@ Build a responsive recipe page and get it looking as close to the design as poss
 
 
 ### Useful resources
+
+- [Minfy CSS online ](https://www.toptal.com/developers/cssminifier) - I asked co-pilot to evaluate my code and it suggested minifying it. This is a site that you can paste you css in and it minify it for you. 
 
 - [vs code on git  and github](https://youtu.be/i_23KUAEtUM) - This helped me successfully get my github and tought how to branch edit and merge back to main repository 
 - [Set GH pages for you a live site on github](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) - This is an amazing article which helped me finally understand how to set up gh pages on github.
