@@ -25,6 +25,7 @@ main{
 .recipe-image {
   width: 100%;
   box-sizing: border-box; 
+  margin-bottom: 1rem;
 }
 
 .container{
@@ -163,6 +164,7 @@ footer{
 
   .recipe-image{
     border-radius: 1rem;
+    
   }
 } 
   
