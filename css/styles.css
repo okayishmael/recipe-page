@@ -1,14 +1,5 @@
-/* *, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
 
-body{
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary-bg-color);
-}
+
 :root{
   --surface-color: hsl(0, 0%, 100%);
   --primary-bg-color: hsl(30, 54%, 90%);
@@ -19,13 +10,28 @@ body{
   --prep-time-header-color: hsl(332, 51%, 32%);
   --h2-header-color: hsl(14, 45%, 36%);
 }
+/* Mobile Styles screen 768px and less */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg-color);
+}
+
+main{
+  margin-bottom: 2rem;
+}
+
+
 .recipe-image {
   width: 100%;
   box-sizing: border-box; 
 }
+
 .container{
   background-color: var(--surface-color);
 }
+
+/* Section styles begins here */
 .article-header, 
 .recipe-preparation,
  .recipe-ingredients,
@@ -71,6 +77,15 @@ body{
   font-family: 'Young Serif', serif;
 }
 
+
+.recipe-preparation{
+  margin: 2.5rem 2rem 0 2rem;
+  padding:  1rem 1rem 1rem 2rem;
+  background-color: var(--preparation-bg-color);
+}
+
+/* Lists styles begins here */
+
 .prep-time-list,
 .ingredients-list, 
 .instructions-list,
@@ -82,11 +97,6 @@ body{
   font-weight: 400 ;
 }
 
-.recipe-preparation{
-  margin: 2.5rem 2rem 0 2rem;
-  padding:  1rem 1rem 1rem 2rem;
-  background-color: var(--preparation-bg-color);
-}
 .prep-time-list li, 
 .ingredients-list li, 
 .instructions-list li {
@@ -109,6 +119,7 @@ body{
   font-weight: 700;
 }
 
+/* Table styles */
 .nutrition-table {
   width: 100%;
   border-collapse: collapse;
@@ -132,14 +143,11 @@ body{
   
 }
 
-main{
-  margin-bottom: 2rem;
-}
-
 footer{
   padding-bottom: 1rem;
 }
 
+/* Style for larger sreen start at 768px and higher */
 @media (min-width: 768px){
   .container{
     max-width: 700px;
