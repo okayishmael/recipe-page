@@ -26,6 +26,8 @@ main{
   width: 100%;
   box-sizing: border-box; 
   margin-bottom: 1rem;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .container{
