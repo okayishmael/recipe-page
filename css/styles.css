@@ -23,11 +23,10 @@ main{
 
 
 .recipe-image {
-  width: 100%;
+  max-block-size: 100%;
   box-sizing: border-box; 
   margin-bottom: 1rem;
-  max-inline-size: 100%;
-  block-size: auto;
+ 
 }
 
 .container{
@@ -35,7 +34,7 @@ main{
 }
 
 /* Section styles begins here */
-.article-header, 
+ 
 .recipe-preparation,
  .recipe-ingredients,
   .recipe-instructions, .recipe-nutrition {
@@ -55,7 +54,7 @@ hr.divider {
 .recipe-title {
   font-size: 2.5rem;
   color: var(--main-header-color);
-  margin: 1rem 0;
+  margin: 1rem 2rem;
   font-family: 'Young Serif', serif;
   font-weight: normal;
 
@@ -66,6 +65,10 @@ hr.divider {
   color: var(--paragraph-text-color);
   font-family: 'Outfit', serif;
   line-height: 1.5;
+}
+
+.recipe-description{
+  margin: 0 2rem;
 }
 .prep-time-header {
   font-size: 1.2rem;
@@ -160,20 +163,20 @@ footer{
   .container{
 
     max-width: 700px;
-     margin: 0 auto;
+    margin: 0 auto;
     margin-top: 3rem; 
     border-radius: 2rem;
   }
 
-  /* .banner{
-    padding: 2rem 2rem 0 2rem;
-    
-  } */
-
   .recipe-image{
-    border-radius: 1rem;
+    margin: 2rem 2rem 0 2rem;
+    max-width: 90%;
+    display: inline-block;
     
+    border-radius: 1rem;
   }
+
+ 
 } 
   
 
