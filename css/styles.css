@@ -23,7 +23,7 @@ main{
 
 
 .recipe-image {
-  max-block-size: 100%;
+  max-width: 100%;
   box-sizing: border-box; 
   margin-bottom: 1rem;
  
